@@ -1,0 +1,41 @@
+{
+  "identifier" : "Catchlog",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "catchlog_group",
+      "localizations" : [],
+      "name" : "Catchlog Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "2.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "catchlog_pro_monthly",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Bait/lure success stats and weather-condition correlation",
+              "displayName" : "Catchlog Pro Monthly",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "catchlog_pro_monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Catchlog Pro Monthly",
+          "subscriptionGroupID" : "catchlog_group",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
