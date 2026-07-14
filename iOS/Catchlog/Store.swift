@@ -34,7 +34,7 @@ final class Store: ObservableObject {
         isPro || entries.count < Store.freeLimit
     }
 
-    func add(species: String, weight: String, waterbody: String, lure: String) {
+    func add(name: String, species: String, weight: String, waterbody: String, lure: String) {
         guard canAddMore else { return }
         let entry = CatchEntry(name: name, species: species, weight: weight, waterbody: waterbody, lure: lure)
         entries.insert(entry, at: 0)
